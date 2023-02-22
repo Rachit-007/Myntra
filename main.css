@@ -1,0 +1,63 @@
+.dotd{
+    margin-top: 3rem;
+    padding-left: 2.5rem;
+}
+.dotdimages{
+    margin-top:3rem;
+    margin-left: 0.5rem;
+}
+.poster1{
+    margin-top: 100px;
+}
+.exclusive{
+   padding-top: 3rem;
+   padding-left: 2rem;
+}
+.exclusiveimages{
+    margin-top: 3rem;
+    padding-left: 1.3rem;
+}
+.ctb{
+    padding-top: 3rem;
+    padding-left: 2rem;
+ }
+.flat{
+    z-index: 1;
+    height: 250px;
+    width:40px;
+    background-color: lightblue;
+    position: fixed;
+    right: 0px;
+    top: 19rem;
+}
+.flat p{
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    color: white;
+    padding-top: 2rem;
+    padding-left: 0.3rem;
+}
+.flatbtn{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    text-decoration: none;
+    border: none;
+}
+
+.flat i{
+    color:white;
+    
+}
+.deal{
+    position: fixed;
+    top: 19rem;
+    z-index: 1;
+    right:40px;
+    transition: 0.5s;
+}
+#image{
+    width: 0px;
+    height:250px;
+    transition: 0.5s;
+}

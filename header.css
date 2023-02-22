@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    background-color: white;
+    
+}
+.logo{
+    background-color: white;
+}
+.dropbtn {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    height: 100%;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0.75rem;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* top: 4.5rem; */
+    background-color: rgb(233, 231, 231);
+    height: 85vh;
+    width: 85vw;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    position: fixed; 
+    top:77px;
+    left:50px;
+}
+  
+  .dropdown:hover .dropbtn {border-bottom:3px solid palevioletred;}
+
+  .options{
+    margin-bottom: 0.6rem;
+  }
+
+.search{
+ margin-left: 5rem;
+ margin-top:9px;
+}
+.searchbar{
+padding: 10px;
+border-radius: 5px;
+border: none;
+font-size: 1rem;
+background-color: rgb(238, 235, 235);
+}
+.searchbar:focus {
+    border: 1px solid grey;
+    background-color: white;
+    outline: 1px solid lightgray;
+}
+::placeholder{
+    font-size: 0.8rem;
+}
+.profile{
+    margin-left: 2rem;
+    font-size: small;
+}
+.profile i{
+    padding-left: 0.7rem;
+}
+.profile a{
+    text-decoration: none;
+    color: rgb(105, 101, 101);
+}
+.profile a:hover{
+    color: black;
+}
+
